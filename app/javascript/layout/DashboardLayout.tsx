@@ -1,11 +1,12 @@
 import React from "react";
 import { Terminal } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
+import { AppSidebar } from "@/components/app-sidebar";
 
 const DashboardLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className="flex min-h-screen w-full flex-row">
-      {/* SideBar */}
+     <AppSidebar />
       <div className="main flex flex-col w-full">
         {/* NavBar */}
         <Alert>
