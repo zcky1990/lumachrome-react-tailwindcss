@@ -21,7 +21,7 @@ gem "tailwindcss-rails"
 
 gem 'mongoid', "9.0.2"
 
-gem 'cloudinary', '~> 1.2', '>= 1.2.2'
+gem 'cloudinary', '~> 2.2'
 
 gem "devise" , "4.9.4"
 
