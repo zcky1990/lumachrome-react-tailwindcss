@@ -19,6 +19,12 @@ gem "redis", ">= 4.0.1"
 
 gem "tailwindcss-rails"
 
+gem 'mongoid', "9.0.2"
+
+gem 'cloudinary', '~> 1.2', '>= 1.2.2'
+
+gem "devise" , "4.9.4"
+
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
