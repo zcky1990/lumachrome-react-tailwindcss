@@ -1,13 +1,13 @@
 class HomeController < ApplicationController
   def index
     render inertia: 'Hello', props: {
-      name: "test"
+      name: 'test'
     }
   end
 
   def apa
-    render inertia: 'Apa', props: {
-      name: "apa"
+    render inertia: 'SignIn', props: {
+      name: 'apa'
     }
   end
 end
